@@ -14,7 +14,7 @@ public class Planet2Rotation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        yPositionRotation += Time.deltaTime * 15;
+        yPositionRotation += Time.deltaTime * 9;
         transform.rotation = Quaternion.Euler(0, yPositionRotation, 0);
     }
 }
